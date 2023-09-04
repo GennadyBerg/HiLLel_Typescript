@@ -5,15 +5,18 @@ function excercise1() {
     console.log(greetingText);
 }
 excercise1();
-function excercise2() {
-    // declare two varaibles - one of string, one of type number
-    let greetingText;
-    let age;
-    greetingText = 'Hello';
-    age = 3;
-    // assign string var value 'Hello'
-    // assign number var value 3
-    // create a while loop which prints string variable to console 3 times
-    // try to assign number variable to string variable - observe the error
+///////////task2////////////
+function example2() {
+    // let isDone: boolean = false;
+    let greet;
+    let looping;
+    greet = 'Hello!';
+    looping = 3;
+    let i = 0;
+    while (i < looping) {
+        console.log(greet);
+        i++;
+    }
+    // let query: string;
+    // query = looping
 }
-excercise2();
