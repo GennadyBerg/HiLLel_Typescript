@@ -3,7 +3,7 @@ function createArr() {
     n = 1;
     let m: number;
     m = 10;
-    const numbers: any[] = [];
+    const numbers: number[] = [];
     if (n < m) {
         for (let i = n; i <= m; i++) {
             numbers.push(i)
